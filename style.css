@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,100;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Color-Graphic : #000000;
+  --Background : #ffffff;
+}
+
+.Dark {
+  --Color-Graphic : #ffffff ;
+  --Background: #000000;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  grid-template-rows: minmax(12%, 12%) minmax(88%, 88%);
+
+  background: var(--Background);
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 35vw;
+  list-style: none;
+  color: var(--Color-Graphic);
+}
+
+header ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+#Apple {
+  width: 30px;
+  height: 30px;
+}
+
+#Watch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 12vw;
+  height: 5vh;
+  border: 1px solid var(--Color-Graphic);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--Color-Graphic);
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  grid-template-rows: minmax(9%, 8%) minmax(10%, 10%) minmax(75%, 75%);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+
+  color: var(--Color-Graphic);
+}
+
+main h1 span {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 15px;
+}
+
+main p {
+  font-family: 'Regular';
+  font-weight: 400;
+}
+
+#Toglle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 10;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+
+  border-radius: 50px;
+  width: 27px;
+  height: 27px;
+  
+  background: transparent;
+  
+}
+
+#Toglle ion-icon {
+  width: 25px;
+  height: 25px;
+  color: var(--Color-Graphic);
+}
