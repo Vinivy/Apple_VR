@@ -21,7 +21,7 @@ Projeto inspirado na apresentação do Apple VR, destacando suas principais func
 
 <br>
 <p aling="center">
-    <img alt= "Img do projeto" src="./Apple_VR/Github/Tumble.png">
+    <img alt= "Img do projeto" src="./Github/Tumble.png">
 </p>
 
 <br >
